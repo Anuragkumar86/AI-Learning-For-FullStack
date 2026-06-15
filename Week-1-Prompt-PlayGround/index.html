@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prompt Playground</title>
+</head>
+<body>
+    <h1>Welcome Anurag to Prompt PlayGround</h1>
+
+    <textarea id="user_prompt" placeholder="How can I help you..." rows="10" cols="40"></textarea>
+    <textarea id="system_prompt" placeholder="Enter System Prompt..." rows="10" cols="40"></textarea>
+
+    <button id="sendBtn">Send Query</button>
+
+    <h2>Response: </h2>
+    <div id="response"></div>
+
+    <h2>Total Token Counts: </h2>
+    <h4 id="token_count" style="color: red; font-weight: bold;"></h4>
+
+    <script src="script.js"></script>
+</body>
+</html>
